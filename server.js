@@ -1,5 +1,8 @@
 const express = require('express');
 const fs = require('fs');
+
+const port = process.env.PORT || 3400
+
 var app = express();
 
 app.set('view engine', 'ejs');
@@ -32,6 +35,6 @@ app.get('/user', (req, res)=>{
     })
 })
 
-app.listen(3000, ()=>{
-    console.log('Server is started at port 3000');
+app.listen(port, ()=>{
+    console.log('Server is started at port 3400');
 })

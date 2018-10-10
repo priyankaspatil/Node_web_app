@@ -1,18 +1,28 @@
 {
-  "name": "9Oct'18",
+  "name": "NodeWebApp",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "main": "server.js",
   "dependencies": {
     "ejs": "^2.6.1",
     "express": "^4.16.3",
     "express-generator": "^4.16.0",
     "nodemon": "^1.18.4"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priyankaspatil/Node_web_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priyankaspatil/Node_web_app/issues"
+  },
+  "homepage": "https://github.com/priyankaspatil/Node_web_app#readme"
 }
